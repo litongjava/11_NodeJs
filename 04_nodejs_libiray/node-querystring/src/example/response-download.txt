@@ -1,0 +1,225 @@
+D:\nodejs\node.exe E:\code\frontend\frontend-study\11_NodeJs\04_nodejs_libiray\node-querystring\src\axios-qs-download.js
+{
+  status: 200,
+  statusText: '',
+  headers: AxiosHeaders {
+    'access-control-allow-origin': '*',
+    'access-control-allow-credentials': 'true',
+    'access-control-allow-methods': 'GET,POST,OPTIONS,PUT,DELETE',
+    'x-content-type-options': 'nosniff',
+    'x-xss-protection': '1; mode=block',
+    'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+    pragma: 'no-cache',
+    expires: '0',
+    'x-frame-options': 'DENY',
+    'transfer-encoding': 'chunked',
+    date: 'Mon, 17 Apr 2023 13:11:25 GMT',
+    connection: 'close'
+  },
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: null },
+    validateStatus: [Function: validateStatus],
+    headers: AxiosHeaders {
+      Accept: 'application/json, text/plain, */*',
+      token: 'eyJhbGciOiJIUzI1NiIsInppcCI6IkRFRiJ9.eNokjEsOwyAMRO_iNUgxCZ9ymcpgL6gSGhUiRap699J0N_Pm84YulWq_F4Y4KWhHggjEW6mg4GjyuhLA4Vp-7jL0RqVeqyy6ZVolsqzSZVTk3CGiCxjQB2MVFOp_4GdcfuDRy7hgk2dEJ_rmxekFvdXkzKLZemQxKeFk4fMFAAD__w.YRSAkXd2wV46CL-2ggNLIBCgyTIRNC1iof6ZOIQ40sc',
+      'User-Agent': 'axios/1.3.5',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    params: { pageNo: 1, pageSize: 10, createTime: [Array] },
+    paramsSerializer: { serialize: [Function: paramsSerializer] },
+    responseType: 'blob',
+    method: 'get',
+    url: 'http://localhost:8021/cf/alarm-weather/export-excel',
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'localhost',
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(async_id_symbol)]: 247,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /cf/alarm-weather/export-excel?pageNo=1&pageSize=10&createTime=2023-04-01%2000%3A00%3A00&createTime=2023-05-24%2023%3A59%3A59 HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'token: eyJhbGciOiJIUzI1NiIsInppcCI6IkRFRiJ9.eNokjEsOwyAMRO_iNUgxCZ9ymcpgL6gSGhUiRap699J0N_Pm84YulWq_F4Y4KWhHggjEW6mg4GjyuhLA4Vp-7jL0RqVeqyy6ZVolsqzSZVTk3CGiCxjQB2MVFOp_4GdcfuDRy7hgk2dEJ_rmxekFvdXkzKLZemQxKeFk4fMFAAD__w.YRSAkXd2wV46CL-2ggNLIBCgyTIRNC1iof6ZOIQ40sc\r\n' +
+      'User-Agent: axios/1.3.5\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: localhost:8021\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/cf/alarm-weather/export-excel?pageNo=1&pageSize=10&createTime=2023-04-01%2000%3A00%3A00&createTime=2023-05-24%2023%3A59%3A59',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: '',
+      client: [Socket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'http://localhost:8021/cf/alarm-weather/export-excel?pageNo=1&pageSize=10&createTime=2023-04-01%2000%3A00%3A00&createTime=2023-05-24%2023%3A59%3A59',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 24,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'localhost',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://localhost:8021/cf/alarm-weather/export-excel?pageNo=1&pageSize=10&createTime=2023-04-01%2000%3A00%3A00&createTime=2023-05-24%2023%3A59%3A59',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      token: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    }
+  },
+  data: 'PK\x03\x04\x14\x00\b\b\b\x00l��V\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00[Content_Types].xml�S�n�0\x10����*6�PU\x15�C\x1F�\x16��\x03\\{�X�%����]\x078�R�\n' +
+    "q�cfgfW�d�q�ZCB\x13|��|�*�*h㻆},^�{Va�^K\x1B<4�\x076�N\x16�\bXQ�ǆ�9�\x07!P��$�\x10�\x13҆�d�c�D�j);\x10��ѝP�g��E�M'O�ʕ����H7L�h���R���G��^�'�\x03\x07{\x13�\b�zސʮ\x1BB��3\x1C�\x0B˙��h.�h�W�жF�\x0Ej娄CQՠ똈���}ιL�U:\x12\x14D�\x13����%އ����,�B���[�\t��\x1E ;˱�\t�{N��~��X�p�\x1CykOL�\x04\x18�kN�V��ܿBZ~����\x7Fq\x18�\x7F�\x0F �a\x19\x1Fr��{O�\x01PK\x07\bz��q;\x01\x00\x00\x1C\x04\x00\x00PK\x03\x04\x14\x00\b\b\b\x00l��V\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0B\x00\x00\x00_rels/.rels���j�0\f�_���8�`�Q��2�m��\x014[ILb��ږ���.[K\n" +
+    `\x1B�($}�\x07�v?�I�Q.���uӂ�h���\x1Bx>=��@\x15��p�H\x06"�~�}�\t�n����*"\x16\x03�H�׺؁\x02��\x13���8\x07�Z�^'�#��7m{��O\x06�3��\x19�G�\x06u�ܓ\x18�'��y|a\x1E�����D�\t��\x0El_\x03EYȾ�\x00���vql\x1F3�ML�eh\x16���*�\x04��\\3�Y0���oJ׏�\x03\t:\x14��^\b�\x1F�}\x02PK\x07\b��z��\x00\x00\x00I\x02\x00\x00PK\x03\x04\x14\x00\b\b\b\x00l��V\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00docProps/app.xmlM��\n` +
+    '�0\x10D��\x10ro�z\x10�4� �\'{�\x0F\b��\x06�MHV�盓z�\x19��T��E�1e\x17�����\x02Ɇ�ѳ����:�No7jH!bb�Y�\x07�V���\x04�����T�)$o���0M��9ؗGb�7�\x01pe�\x11�*~�R�>��Y�EB��\x14�\x18nW\x05������\x00PK\x07\b6n�!�\x00\x00\x00�\x00\x00\x00PK\x03\x04\x14\x00\b\b\b\x00l��V\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00docProps/core.xmlm��J�0\x14E\x7F��=M��v\x10e@P\x1C�2�[H�m���D;��i\x1D+�oI�:��]m\x0EjL������,\'\tja䠻�<���$>p-�h4�D\x1B�i*a�0\x0Ew�Xta@�D��Lؚ�!X\x06�E���,\x12:�/�)\x1E��u`�x�\x1DB��g�0p�\x03�Y���H�J)V�}s�"�\x02pD�:x�\x19�\x1F6�S�߁%YɃ\x1FVj��l*\x17.nD����aY>\x1D��u����j&\x1C�2�\x02\x16>ll�;ٗW��4E^�i~��󖖌RV�>W�k~\x16~��k.c!=&����[�+�Ss�\tPK\x07\bX\r\x14c\x05\x01\x00\x00�\x01\x00\x00PK\x03\x04\x14\x00\b\b\b\x00l��V\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00xl/sharedStrings.xml=�A\n' +
+    `�0\x10\x00�\x7F\b{��\x1ED�i\x0F�/�\x07�tm\x02�&f7�����0Ì�7mꃕc&\x0B���B�y��Zx>�\x0B��~72��X�I��nx�s�\x10[\b"�5����\x0BR7�\\���u�\\*��\x03��M��9��"��~PK\x07\bh���y\x00\x00\x00�\x00\x00\x00PK\x03\x04\x14\x00\b\b\b\x00l��V\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\r\x00\x00\x00xl/styles.xml�UKn�0\x10�\x17�\x1D\b�\x1D9�\x1B\x04��\x005ঋt\x13\x17�\x16)�\b?\x02I�R��e��\x1B�6�=:$%Y\x0E��-\x12/L�i�\x1B�!�J�\x1A)�=3�k���gS���5�\\�����\x12_eoߤֵ��V�9\x04\feW�r�^&��+&�=�5S��F\x12\x07KS&�6�P�IR$���"��+��j/7�Y��r�v�P\x1C>R\x00/\x16\x18E���l�[�Mnn&���륔Kkq��I'���V\x07�9�@��\x07tO\x04\bzw@ȵ�\x06qEY� ϥ�\x14�,F���;�=X\x10�E\x1B�\x07��.Nr�M�\x1F������\x1F�~��\x1EX}�E̿�Kg��/��{<6�1��ms!\x06�\x0B\x1C�,��s̨\r,P7߶5�Qi�%\x0Eq�DSb�>\x18ҞΰZp���\x10V��7f\x16j����d\x18��N\x1B\n` +
+    'g�7�\x0E�P�\n' +
+    'V8�\x1B^V~t�����i\t\x13�I�\x15\x11>A�\x183Q8�I\x15��S�B��c�+��X,Ɠ)�\tT9gB���/�Q�6Ũ]��Y�0���Q&.��X-j�d��%��b�\x7F�}~`���Ł�H]��}x��g���;\x02>�厙M���#��,�\x0E.�dʡJ\x1B�\x00�|\x17�\x000��WC�-k\x06>\\\x8E�\b0S\x1B�X��nFB�w�+�k�)\x1E��.�hw�|�N��o[ر��)��\x00PK\x07\b�z��2\x02\x00\x00?\x06\x00\x00PK\x03\x04\x14\x00\b\b\b\x00l��V\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0F\x00\x00\x00xl/workbook.xml��AN�0\x10E�H���=�\x03\bA\x14�\x1B��\x1D���u&��؎fL�%Xr\rĩz\x0E�T\x01�]Y_����\x17{$v1h(\x16\n' +
+    '\x04\x06\x1B\x1B\x17�\x1A^�OW���//�C��&Ɲ�|`\r]JC)%�\x0E��E\x1C0䦍�Mʑ��\x07B�p��|/����޸\x00\'CI�8b�:��Ѿy\f�$!�M�k�s\x03C���Dc\x12\x16\x0F�VCkzF�u56�\x0E\x0F�\x07�Q\x18��\x1E�f�A���\x07N��W\x04�Q������\x05�J�h�Us\x03b�W9\x16�a>��G�\x0FPK\x07\b���u�\x00\x00\x00^\x01\x00\x00PK\x03\x04\x14\x00\b\b\b\x00l��V\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1A\x00\x00\x00xl/_rels/workbook.xml.rels��Mk�0\f@���}q��\x18�n/c����\x00c+qh"\x19K�迟���@\x07;�$��{\x0F��~Γy�"#���i� \x05�#\r\x0E^�O7�`D=E?1�\x03b�n��8y�?$�YLE�8H���Z\t\tg/\rg����^�\f6�p�\x03�U���r΀%�좃��\x1D��/\x03�\x03I�`|�Rˤ��:f����~\f���mF�\x0Bv����\x1C�:���ׯ�������\x7Fp9HB�Sy\x1DݵK~\x04�\x18����\x0BPK\x07\b�\x03;��\x00\x00\x003\x02\x00\x00PK\x03\x04\x14\x00\b\b\b\x00l��V\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00xl/worksheets/sheet1.xml��M��D\x18\x07�{%���s����JR�v+8 U\x14�ٛL\x12��\x1Dٳ�^9PUB�¡\x12+�\x01*zB U\b�ħ!��[��\x13�8�x��h����=��O�epn�2ɳQ�\x07(\fL6ɧI6\x1F�_|~�C\x15�\x1E\x7Fpc�΋���\x18\x1B@ +G���խ(*\'\x0B��� _�\f���"�-4�yT�\n' +
+    '\x13O�P��\bB"J�$\x0B��i����\x18\x14f6\n' +
+    "��['\x18��xX}�Qb���q��>��Ǯ��t\x14�\x18m|��,��\x1Ah��̸tԊ߯��\b�f\x16�-�g��c��\x17\x16�\x1C�\x10��˲�\x1F���@\x18���}�L�\x02��+�䬴y�����;ܧ�.E�)��N�]��S��\x15ۅ�>Į\x0E�]��*�MEےT\x05�\x17�x|cX��pE��;�\x03�)�*A)�l�d�-`j\x13H�q2\x1DF\x16��Z�d��|ԟy����\x0F�\x04����//^�$��\x7F���ۛԽ_��q�����<�z��_\x1D�{��ilMG��ޞ]l�����\x1F�/^7�\x11\x14�.!�KH�K����\x18\x0F\x04�\x1Ai�1c�H$�\tV����~�\x01���ٻ�72W�W]u��\x1C�H�;�qD�@\n" +
+    '�\x04\x12La��i����M\\k-\x04��J�65\x03�&�1�.\x0Emp���aHH\x13�\t�xX�a\x1D\x1E$1EZ"Mq��z=�������~|y��w].�p1��MQ��x��G,�\x04�Ts��$B�Y�����ͳߺL�a�]&�\x06D0��.��\x135J�QL\x13���\x18wL��5�k�D�$�&ʠ�\x12Q�!ɚ$;H�A�K$�L��$�m�\r���������\x1E��M�e�Jr��\'\x10�0�^���I5L�g�RsEݟo��\x1A��(�\x05�\x14�\x13�v��t/J_\x1B�\x1B(�CQJ\x18���1at��G�*J$�Ɇ�\x14,@�V\x1D%�Y���y?wC9|��N\x14\x1D(�(CDJ���Í\x0Bn�`�!N4S�c��\x02-�oG�m�M\x13��\x10\x11��M\x02�V_T�̆�xn>��y���ina3\x07�cx\x16��,ϭ)\\\x0B��\x0B؈�\x1BK3�շ �c��vY�\x07�����\x01PK\x07\b��=ņ\x03\x00\x00#\f\x00\x00PK\x01\x02\x14\x00\x14\x00\b\b\b\x00l��Vz��q;\x01\x00\x00\x1C\x04\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[Content_Types].xmlPK\x01\x02\x14\x00\x14\x00\b\b\b\x00l��V��z��\x00\x00\x00I\x02\x00\x00\x0B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x01\x00\x00_rels/.relsPK\x01\x02\x14\x00\x14\x00\b\b\b\x00l��V6n�!�\x00\x00\x00�\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00�\x02\x00\x00docProps/app.xmlPK\x01\x02\x14\x00\x14\x00\b\b\b\x00l��VX\r\x14c\x05\x01\x00\x00�\x01\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00i\x03\x00\x00docProps/core.xmlPK\x01\x02\x14\x00\x14\x00\b\b\b\x00l��Vh���y\x00\x00\x00�\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00�\x04\x00\x00xl/sharedStrings.xmlPK\x01\x02\x14\x00\x14\x00\b\b\b\x00l��V�z��2\x02\x00\x00?\x06\x00\x00\r\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00h\x05\x00\x00xl/styles.xmlPK\x01\x02\x14\x00\x14\x00\b\b\b\x00l��V���u�\x00\x00\x00^\x01\x00\x00\x0F\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00�\x07\x00\x00xl/workbook.xmlPK\x01\x02\x14\x00\x14\x00\b\b\b\x00l��V�\x03;��\x00\x00\x003\x02\x00\x00\x1A\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00�\b\x00\x00xl/_rels/workbook.xml.relsPK\x01\x02\x14\x00\x14\x00\b\b\b\x00l��V��=ņ\x03\x00\x00#\f\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x12\n' +
+    '\x00\x00xl/worksheets/sheet1.xmlPK\x05\x06\x00\x00\x00\x00\t\x00\t\x00?\x02\x00\x00�\r\x00\x00\x00\x00'
+}
