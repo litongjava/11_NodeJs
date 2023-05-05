@@ -12,7 +12,15 @@ const oldArr = [
 因此，这行代码的作用是将旧数组中的displayName和realName属性取出，分别添加到新数组中的label和value属性中。具体来说，它将旧数组的每个元素映射到一个新对象，新对象中的label属性值为旧数组元素的displayName属性值，value属性值为旧数组元素的realName属性值，最终生成一个新的数组对象。
  */
 let callbackfn = ({displayName: label, realName: value}) => ({label, value});
-const newArr = oldArr.map(callbackfn);
+let newArr = oldArr.map(callbackfn);
 
 console.log(newArr);
 // [{ label: 'display1', value: 'real1' }, { label: 'display2', value: 'real2' }, { label: 'display3', value: 'real3' }]
+
+let callbackfn1 = it=>it.displayName;
+console.log("typeof function:",typeof callbackfn1)
+newArr=oldArr.map(callbackfn1)
+console.log("new Arr",newArr);
+
+console.log(typeof newArr)
+console.log("isArray",Array.isArray(newArr))
